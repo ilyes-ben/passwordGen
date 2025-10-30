@@ -2,13 +2,9 @@ window.addEventListener('DOMContentLoaded',()=>{
 
     const length = document.getElementById('length');
     const uppercase = document.getElementById('uppercase');
-    
     const lowercase = document.getElementById('lowercase');
-    
     const numbers = document.getElementById('numbers');
-    
     const symbols = document.getElementById('symbols');
-    
     const password = document.getElementById('password');
     const copy = document.getElementById('copy');
     const genButton = document.getElementById('genButton');
