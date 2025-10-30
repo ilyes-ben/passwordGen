@@ -11,18 +11,29 @@
     <h3>Password Gen</h3>
     <p>Select one or more options then click generate</p>
 
-    <div id="options">
-      <label>(A-Z)</label>
-      <input id="uppercase" type="checkbox">
-      <label>(a-z)</label>
-      <input id="lowercase" type="checkbox">
-      <label>(0-9)</label>
-      <input id="numbers" type="checkbox">
-      <label>(@,$,[,...)</label>
+    <fieldset id="options">
+      <legend>Options:</legend>
+      <div class="container">
+        <label>(A-Z)</label>
+        <input id="uppercase" type="checkbox">
+      </div>
+      <div class="container">
+        <label>(a-z)</label>
+        <input id="lowercase" type="checkbox">
+      </div>
+      <div class="container">
+        <label>(0-9)</label>
+        <input id="numbers" type="checkbox">
+      </div>
+      <div class="container">
+        <label>(@,$,[,...)</label>
       <input id="symbols" type="checkbox">
-      <label id="lengthLabel">Length:</label>
+      </div>
+      <div class="container">
+        <label id="lengthLabel">Length:</label>
       <input id="length" type="number" min="4" max="32" value="12">
-    </div>
+      </div>
+    </fieldset>
 
     <div id="genContainer">
       <input id="password" type="text" readonly>

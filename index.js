@@ -29,6 +29,8 @@ window.addEventListener('DOMContentLoaded',()=>{
             alert("at least select one option from the checkboxes");
         }
 
+        else{
+
         const uppercaseString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         const lowercaseString = "abcdefghijklmnopqrstuvwxyz";
         const numbersString = "0123456789";
@@ -46,7 +48,7 @@ window.addEventListener('DOMContentLoaded',()=>{
 
         password.value = passwordString;
 
-    })
+}})
 
     copy.addEventListener('click',()=>{
 
